@@ -10,10 +10,6 @@ dict1 = {
     'value': 11
 }
 
-dict2 = {
-    'value': 11
-    }
-
 dict2 =dict1
 
 dict2['value'] =2
@@ -22,3 +18,5 @@ print(id(dict1))
 print(id(dict2))
 
 print(dict1['value'])
+
+# In this case if we update dict2, dict1 value is also change
