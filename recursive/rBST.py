@@ -41,10 +41,7 @@ class BinarySearchTree:
             current_node = current_node.left
         
         return current_node.value
-        
-        
-
-
+      
     def __delete_node(self, current_node, value):
         if current_node == None:
             return None
